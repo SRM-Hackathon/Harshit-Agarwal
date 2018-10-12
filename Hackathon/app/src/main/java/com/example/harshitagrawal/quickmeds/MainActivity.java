@@ -1,9 +1,20 @@
 package com.example.harshitagrawal.quickmeds;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+
+
+    public void signUpHere(View view)
+    {
+        Intent signUpIntent=new Intent(getApplicationContext(),SignupActivity.class);
+        startActivity(signUpIntent);
+
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
