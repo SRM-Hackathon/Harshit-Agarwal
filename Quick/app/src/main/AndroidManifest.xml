@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".signup" />
         <activity android:name=".loggedIn" />
+        <activity android:name=".profile"></activity>
     </application>
 
 </manifest>

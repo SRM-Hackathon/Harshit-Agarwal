@@ -22,18 +22,19 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
             android:layout_margin="10dp"
             android:background="@drawable/roundbutton"
+            android:onClick="profileView"
             android:text="Profile"
             android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
             android:textColor="@color/MyColor"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_row="0"
-            android:layout_rowWeight="1" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button21"
