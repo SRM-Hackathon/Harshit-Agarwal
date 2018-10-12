@@ -13,6 +13,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(signUpIntent);
 
     }
+    public void loginPage(View view)
+    {
+        Intent signUpIntent=new Intent(getApplicationContext(),login.class);
+        startActivity(signUpIntent);
+
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
