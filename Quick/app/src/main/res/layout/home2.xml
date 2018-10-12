@@ -87,4 +87,15 @@
             android:layout_rowWeight="1" />
     </GridLayout>
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="logOut"
+        android:text="Log Out"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
 </RelativeLayout>
