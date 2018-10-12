@@ -33,40 +33,29 @@ public class MainActivity extends AppCompatActivity {
     }
     public void loginPage(View view)
     {
-        Log.i("UserEmail",emailList.get(0));
-        String emails=email.getText().toString().trim();
-        String passwords=pass.getText().toString().trim();
-        byte chkSum=0;
-        int pos=0;
-        for (int i=0;i<emailList.size();i++)
+        //Log.i("UserEmail",emailList.get(0));
+        String emailData=email.getText().toString();
+        String passData=pass.getText().toString();
+        int chk=0;
+        for (int i=0;i<userList.size();i++)
         {
-            Log.i("UserEmail",emailList.get(i));
-
-            if(emails.equals(emailList.get(i).trim()));
+            if(emailData.equals(userList.get(i).getEmail()))
             {
-                chkSum=1;
-                pos=i;
-                break;
-            }
-        }
-        if(chkSum==0)
-        {
-            Toast.makeText(getApplicationContext(),"No such ID exists",Toast.LENGTH_SHORT).show();
-            return;
-        }
-        if(!passList.get(pos).equals(passwords))
-        {
-            Log.i("UserEmail",passList.get(pos));
-            Log.i("UserEmail",passwords);
+                if(passData.equals(userList.get(i).getPassword()))
+                {
+                    Intent signUpIntent=new Intent(getApplicationContext(),loggedIn.class);
+                    signUpIntent.putExtra(USER_ID,userList.get(i).getId());
+                    signUpIntent.putExtra(USER_NAME,userList.get(i).getName());
+                    signUpIntent.putExtra(USER_EMAIL,userList.get(i).getEmail());
+                    startActivity(signUpIntent);
+                    chk=1;
+                }
 
-            Toast.makeText(getApplicationContext(),"Email/Password incorrect",Toast.LENGTH_SHORT).show();
-            return;
+            }
+
         }
-        Intent signUpIntent=new Intent(getApplicationContext(),login.class);
-        signUpIntent.putExtra(USER_ID,userList.get(pos).getId());
-        signUpIntent.putExtra(USER_NAME,userList.get(pos).getName());
-        signUpIntent.putExtra(USER_EMAIL,userList.get(pos).getEmail());
-        startActivity(signUpIntent);
+        if(chk!=1)Toast.makeText(getApplicationContext(),"Try Again",Toast.LENGTH_SHORT).show();
+
 
     }
     @Override

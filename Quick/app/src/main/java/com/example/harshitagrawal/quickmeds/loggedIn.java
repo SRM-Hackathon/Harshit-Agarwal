@@ -3,7 +3,7 @@ package com.example.harshitagrawal.quickmeds;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class login extends AppCompatActivity {
+public class loggedIn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
