@@ -10,6 +10,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="61dp"
+        android:onClick="backToLogin"
         android:text="sign up" />
 
     <EditText
@@ -17,8 +18,10 @@
         android:layout_width="319dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
         android:layout_marginTop="109dp"
         android:ems="10"
         android:hint="Name"
@@ -41,7 +44,11 @@
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/editText6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
         android:layout_marginTop="169dp"
         android:layout_marginEnd="-1dp"
         android:ems="10"
