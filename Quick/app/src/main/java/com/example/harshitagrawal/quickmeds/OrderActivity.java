@@ -64,8 +64,8 @@ public class OrderActivity extends AppCompatActivity {
         presc.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                OrderList orderList=new OrderList((NosPrescriptions.get(i)).getDocName(),(NosPrescriptions.get(i)).getUserName(),"Waiting",(NosPrescriptions.get(i)).getMed1(),(NosPrescriptions.get(i)).getMed2(),(NosPrescriptions.get(i)).getMed3(),(NosPrescriptions.get(i)).getMed4(),(NosPrescriptions.get(i)).getMed5(),(NosPrescriptions.get(i)).getQuan1(),(NosPrescriptions.get(i)).getQuan2(),(NosPrescriptions.get(i)).getQuan3(),(NosPrescriptions.get(i)).getQuan4(),(NosPrescriptions.get(i)).getQuan5());
                 String id=orderRef.push().getKey();
+                OrderList orderList=new OrderList(id,(NosPrescriptions.get(i)).getDocName(),(NosPrescriptions.get(i)).getUserName(),"Waiting",(NosPrescriptions.get(i)).getMed1(),(NosPrescriptions.get(i)).getMed2(),(NosPrescriptions.get(i)).getMed3(),(NosPrescriptions.get(i)).getMed4(),(NosPrescriptions.get(i)).getMed5(),(NosPrescriptions.get(i)).getQuan1(),(NosPrescriptions.get(i)).getQuan2(),(NosPrescriptions.get(i)).getQuan3(),(NosPrescriptions.get(i)).getQuan4(),(NosPrescriptions.get(i)).getQuan5());
                 orderRef.child(id).setValue(orderList);
                 Toast.makeText(getApplicationContext(),"Order Placed",Toast.LENGTH_SHORT).show();
                 finish();

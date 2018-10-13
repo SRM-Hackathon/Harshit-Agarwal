@@ -2,6 +2,7 @@ package com.example.harshitagrawal.quickmeds;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -20,6 +21,11 @@ public class TrackActivity extends AppCompatActivity {
     ArrayList<String> orderStatus;
     String userName;
     ListView listView;
+
+    public void backs(View view)
+    {
+        this.finish();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

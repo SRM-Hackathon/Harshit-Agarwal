@@ -26,12 +26,13 @@
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:layout_marginTop="435dp"
-        android:text="BACK"
         android:background="@color/colorPrimary"
-        android:textColor="#fff"/>
+        android:onClick="back"
+        android:text="BACK"
+        android:textColor="#fff" />
 
 
 

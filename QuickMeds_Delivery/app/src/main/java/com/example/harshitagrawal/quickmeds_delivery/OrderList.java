@@ -1,4 +1,4 @@
-package com.example.harshitagrawal.quickmeds;
+package com.example.harshitagrawal.quickmeds_delivery;
 
 public class OrderList {
     String id,docName,userName,status;
