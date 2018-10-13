@@ -18,8 +18,6 @@
         </activity>
         <activity android:name=".SignUp" />
         <activity android:name=".home" />
-        <activity android:name=".profile" />
-        <activity android:name=".orderdetails"></activity>
     </application>
 
 </manifest>
