@@ -3,6 +3,7 @@ package com.example.harshitagrawal.quickmeds_doc;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -28,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
     public static String DOC_NAME;
     public static String DOC_ID;
     public static String DOC_EMAIL;
-    public static String DOC_SPECIALISATION;
+    //public static String DOC_SPECIALISATION;
+    //public static String DOC_NAAAAM;
     public void logIn(View view)
     {
         String emailStr,passStr;
@@ -42,9 +44,11 @@ public class MainActivity extends AppCompatActivity {
                 if(passStr.equals(docList.get(i).getPass()))
                 {
                     Intent logIn=new Intent(getApplicationContext(),docHome.class);
-                    logIn.putExtra(DOC_ID,docList.get(i).getId());
-                    logIn.putExtra(DOC_EMAIL,docList.get(i).getEmail());
-                    logIn.putExtra(DOC_SPECIALISATION,docList.get(i).getSpecialisation());
+                    DOC_ID=docList.get(i).getId();
+                    DOC_NAME=docList.get(i).getName();
+                    DOC_EMAIL=docList.get(i).getEmail();
+                    //logIn.putExtra(DOC_SPECIALISATION,docList.get(i).getSpecialisation());
+
                     startActivity(logIn);
                     chk=1;
                 }
@@ -61,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         docList=new ArrayList<DocProfile>();
         email=findViewById(R.id.email);
         pass=findViewById(R.id.pass);
+        //DOC_NAAAAM="Bindaas";
         docUser= FirebaseDatabase.getInstance().getReference("docProfile");
         docUser.addValueEventListener(new ValueEventListener() {
             @Override
