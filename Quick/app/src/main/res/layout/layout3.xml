@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/askDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Ask Doctor"
+        android:onClick="askDoctorView"
+        android:textColor="@color/MyColor" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Order"
+        android:onClick="Order"
+        android:textColor="@color/MyColor" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Profile"
+        android:onClick="profileView"
+        android:textColor="@color/MyColor"/>
+
+    <Button
+        android:id="@+id/prescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorPrimary"
+        android:text="Prescription"
+        android:onClick="PrescriptionSelect"
+        android:textColor="@color/MyColor"/>
+</RelativeLayout>
