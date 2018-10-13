@@ -44,7 +44,7 @@ public class loggedIn extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home2);
+        setContentView(R.layout.layout3);
         usrName=MainActivity.USER_NAME;
         usrID=MainActivity.USER_ID;
         usrEmail=MainActivity.USER_EMAIL;
