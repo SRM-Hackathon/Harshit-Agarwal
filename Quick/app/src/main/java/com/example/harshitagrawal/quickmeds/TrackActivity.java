@@ -36,7 +36,7 @@ public class TrackActivity extends AppCompatActivity {
             public void onCancelled(DatabaseError databaseError) {
 
             }
-        })
+        });
 
     }
 }

@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">QuickMeds</string>
     <string name="login">Login</string>
+    <string name="specialist_prompt">Choose a specialist</string>
+
+    <string-array name="specialist_arrays">
+        <item>Cardiologist</item>
+        <item>Dermatologist</item>
+        <item>Endocrinologist</item>
+        <item>Gastroenterologist</item>
+        <item>Gynecologist</item>
+        <item>Immunologist</item>
+        <item>Infectious disease specialist</item>
+        <item>Neurologist</item>
+        <item>Rheumatologist</item>
+        <item>Urologist</item>
+    </string-array>
 </resources>

@@ -22,7 +22,8 @@
         <activity android:name=".PrescriptionActivity" />
         <activity android:name=".ViewPrescription" />
         <activity android:name=".OrderActivity" />
-        <activity android:name=".TrackActivity"></activity>
+        <activity android:name=".TrackActivity" />
+        <activity android:name=".askDoctor"></activity>
     </application>
 
 </manifest>
