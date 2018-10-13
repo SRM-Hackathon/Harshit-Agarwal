@@ -29,7 +29,7 @@ public class WritingPrescriptionActivity extends AppCompatActivity {
     public void givePrescription(View view)
     {
         String id=prescriptions.push().getKey();
-        PrescriptionList prescriptionList=new PrescriptionList(docName,med1,med2,med3,med4,med5,quan1,quan2,quan3,quan4,quan5);
+        PrescriptionList prescriptionList=new PrescriptionList(docName,userName,med1,med2,med3,med4,med5,quan1,quan2,quan3,quan4,quan5);
         prescriptions.setValue(prescriptionList);
         Toast.makeText(getApplicationContext(),"Prescription Saved Successfully",Toast.LENGTH_SHORT).show();
         this.finish();

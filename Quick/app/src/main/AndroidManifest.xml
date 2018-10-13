@@ -18,7 +18,10 @@
         </activity>
         <activity android:name=".signup" />
         <activity android:name=".loggedIn" />
-        <activity android:name=".profile"></activity>
+        <activity android:name=".profile" />
+        <activity android:name=".PrescriptionActivity" />
+        <activity android:name=".ViewPrescription" />
+        <activity android:name=".OrderActivity"></activity>
     </application>
 
 </manifest>

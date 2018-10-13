@@ -1,19 +1,18 @@
-package com.example.harshitagrawal.quickmeds_doc;
+package com.example.harshitagrawal.quickmeds;
 
-import java.util.ArrayList;
-
-public class PrescriptionList {
-    String docName,userName;
+public class OrderList {
+    String docName,userName,status;
     String med1,med2,med3,med4,med5;
     String quan1,quan2,quan3,quan4,quan5;
-    public PrescriptionList()
+    public OrderList()
     {
 
     }
 
-    public PrescriptionList(String docName,String userName, String med1, String med2, String med3, String med4, String med5, String quan1, String quan2, String quan3, String quan4, String quan5) {
+    public OrderList(String docName, String userName, String status, String med1, String med2, String med3, String med4, String med5, String quan1, String quan2, String quan3, String quan4, String quan5) {
         this.docName = docName;
-        this.userName=userName;
+        this.userName = userName;
+        this.status = status;
         this.med1 = med1;
         this.med2 = med2;
         this.med3 = med3;
@@ -28,6 +27,14 @@ public class PrescriptionList {
 
     public String getDocName() {
         return docName;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public String getStatus() {
+        return status;
     }
 
     public String getMed1() {
@@ -68,9 +75,5 @@ public class PrescriptionList {
 
     public String getQuan5() {
         return quan5;
-    }
-
-    public String getUserName() {
-        return userName;
     }
 }

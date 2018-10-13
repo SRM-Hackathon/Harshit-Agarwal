@@ -1,6 +1,4 @@
-package com.example.harshitagrawal.quickmeds_doc;
-
-import java.util.ArrayList;
+package com.example.harshitagrawal.quickmeds;
 
 public class PrescriptionList {
     String docName,userName;
