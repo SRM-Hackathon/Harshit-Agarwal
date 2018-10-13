@@ -12,25 +12,29 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="35dp"
+        android:textSize="30sp"
         android:text="Your Orders"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textColor="@color/colorPrimary" />
 
     <ListView
         android:id="@+id/orderListView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="177dp" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="100dp"/>
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/orderListView"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="-177dp"
-        android:text="Button" />
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="BACK"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/MyColor"/>
 
 </RelativeLayout>
