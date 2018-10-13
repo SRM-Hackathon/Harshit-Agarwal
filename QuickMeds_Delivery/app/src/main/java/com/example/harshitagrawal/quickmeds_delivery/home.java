@@ -13,6 +13,12 @@ public class home extends AppCompatActivity {
         startActivity(signUpIntent);
 
     }
+    public void orderDetails(View view)
+    {
+        Intent signUpIntent=new Intent(getApplicationContext(),orderdetails.class);
+        startActivity(signUpIntent);
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
