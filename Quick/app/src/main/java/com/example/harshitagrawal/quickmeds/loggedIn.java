@@ -40,6 +40,12 @@ public class loggedIn extends AppCompatActivity {
         startActivity(profileIntent);
 
     }
+    public void askdoctor(View view)
+    {
+        Intent signUpIntent=new Intent(getApplicationContext(),askDoctor.class);
+        startActivity(signUpIntent);
+
+    }
     public void track(View view)
     {
         Intent trackIntent=new Intent(getApplicationContext(),TrackActivity.class);

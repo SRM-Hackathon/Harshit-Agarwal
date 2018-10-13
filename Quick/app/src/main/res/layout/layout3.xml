@@ -10,8 +10,8 @@
         android:layout_marginTop="150dp"
         android:layout_marginRight="40dp"
         android:background="@color/colorPrimary"
+        android:onClick="askdoctor"
         android:text="Ask Doctor"
-        android:onClick="askDoctorView"
         android:textColor="@color/MyColor" />
 
     <Button
