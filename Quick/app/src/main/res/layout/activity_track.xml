@@ -30,11 +30,12 @@
         android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
-        android:text="BACK"
+        android:layout_marginTop="500dp"
         android:background="@color/colorPrimary"
-        android:textColor="@color/MyColor"/>
+        android:onClick="backs"
+        android:text="BACK"
+        android:textColor="@color/MyColor" />
 
 </RelativeLayout>

@@ -23,14 +23,16 @@
         android:background="@color/colorPrimary"
         android:text="Order Delivery"
         android:textColor="#fff" />
+
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="290dp"
         android:layout_marginRight="40dp"
+        android:layout_marginTop="290dp"
         android:background="@color/colorPrimary"
+        android:onClick="profile"
         android:text="Profile"
         android:textColor="#fff" />
 

@@ -18,6 +18,12 @@ public class home extends AppCompatActivity {
         Intent intent=new Intent(getApplicationContext(),OrderActivity.class);
         startActivity(intent);
     }
+    public void profile(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(),ProfileActivity.class);
+        startActivity(intent);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
