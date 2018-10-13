@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "798088060413",
+    "firebase_url": "https://quickmeds1.firebaseio.com",
+    "project_id": "quickmeds1",
+    "storage_bucket": "quickmeds1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798088060413:android:6f5cf8f94a8f80a4",
+        "android_client_info": {
+          "package_name": "com.example.ankitjha.quickmeds1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798088060413-5is55pmaf4t9gc03bnd9bnrbjdaveiqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankitjha.quickmeds1",
+            "certificate_hash": "1f2d00aad8b86df3d7a0bae33aa9c6588b2e1ee5"
+          }
+        },
+        {
+          "client_id": "798088060413-cijrvet1elbd3p5760l7okegd5vaa07m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8lqdTfQb0INqMdNjiBtN7r4xOuCXKDPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798088060413-cijrvet1elbd3p5760l7okegd5vaa07m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798088060413:android:027c9d78b93b76dd",
+        "android_client_info": {
+          "package_name": "com.example.harshitagrawal.quickmeds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798088060413-lb687t8qkqbdrl1725fkvrl0unk81nbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harshitagrawal.quickmeds",
+            "certificate_hash": "1f2d00aad8b86df3d7a0bae33aa9c6588b2e1ee5"
+          }
+        },
+        {
+          "client_id": "798088060413-cijrvet1elbd3p5760l7okegd5vaa07m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8lqdTfQb0INqMdNjiBtN7r4xOuCXKDPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798088060413-cijrvet1elbd3p5760l7okegd5vaa07m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798088060413:android:18614fc9ae96631b",
+        "android_client_info": {
+          "package_name": "com.example.harshitagrawal.quickmeds_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798088060413-kiaae5p5m6a7agn1orpj72dlu99rn734.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harshitagrawal.quickmeds_delivery",
+            "certificate_hash": "1f2d00aad8b86df3d7a0bae33aa9c6588b2e1ee5"
+          }
+        },
+        {
+          "client_id": "798088060413-cijrvet1elbd3p5760l7okegd5vaa07m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8lqdTfQb0INqMdNjiBtN7r4xOuCXKDPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798088060413-cijrvet1elbd3p5760l7okegd5vaa07m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798088060413:android:ac3ccd3e6843e30e",
+        "android_client_info": {
+          "package_name": "com.example.harshitagrawal.quickmeds_doc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798088060413-3dn8jgcv7qveanckjp0hultj3p4ch7uk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harshitagrawal.quickmeds_doc",
+            "certificate_hash": "1f2d00aad8b86df3d7a0bae33aa9c6588b2e1ee5"
+          }
+        },
+        {
+          "client_id": "798088060413-cijrvet1elbd3p5760l7okegd5vaa07m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8lqdTfQb0INqMdNjiBtN7r4xOuCXKDPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798088060413-cijrvet1elbd3p5760l7okegd5vaa07m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
