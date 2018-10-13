@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> emailList;
     ArrayList<String>passList;
     EditText email,pass;
-    public static String USER_ID,USER_NAME,USER_EMAIL,USER_PASS;
+    public static String USER_ID,USER_NAME,USER_EMAIL,USER_PASS,USER_ADDRESS,USER_PHONE,USER_DOB;
     public void signUp(View view)
     {
         Intent signUpIntent=new Intent(getApplicationContext(),signup.class);
@@ -48,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
                     USER_NAME=userList.get(i).getName();
                     USER_EMAIL=userList.get(i).getEmail();
                     USER_PASS=userList.get(i).getPassword();
+                    USER_ADDRESS=userList.get(i).getAddress();
+                    USER_PHONE=userList.get(i).getPhone();
+                    USER_DOB=userList.get(i).getDob();
                     startActivity(signUpIntent);
                     chk=1;
                 }

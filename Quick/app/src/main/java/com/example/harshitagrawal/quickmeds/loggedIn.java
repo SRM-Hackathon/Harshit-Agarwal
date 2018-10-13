@@ -8,9 +8,9 @@ import android.view.View;
 public class loggedIn extends AppCompatActivity {
 
 
-    String usrName,usrID,usrEmail,usrPass;
+    String usrName,usrID,usrEmail,usrPass,usrPhone,usrAddr,usrDob;
 
-    public static String USR_NAME,USR_EMAIL,USR_ID,USR_PASS;
+    public static String USR_NAME,USR_EMAIL,USR_ID,USR_PASS,USR_PHONE,USR_ADDR,USR_DOB;
 
     public void logOut(View view)
     {
@@ -37,6 +37,9 @@ public class loggedIn extends AppCompatActivity {
         USR_EMAIL=usrEmail;
         USR_ID=usrID;
         USR_PASS=usrPass;
+        USR_PHONE=usrPhone;
+        USR_ADDR=usrAddr;
+        USR_DOB=usrDob;
         startActivity(profileIntent);
 
     }
@@ -62,5 +65,8 @@ public class loggedIn extends AppCompatActivity {
         usrID=MainActivity.USER_ID;
         usrEmail=MainActivity.USER_EMAIL;
         usrPass=MainActivity.USER_PASS;
+        usrPhone=MainActivity.USER_PHONE;
+        usrAddr=MainActivity.USER_ADDRESS;
+        usrDob=MainActivity.USER_DOB;
     }
 }
