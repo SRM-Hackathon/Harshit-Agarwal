@@ -40,6 +40,13 @@ public class loggedIn extends AppCompatActivity {
         startActivity(profileIntent);
 
     }
+    public void track(View view)
+    {
+        Intent trackIntent=new Intent(getApplicationContext(),TrackActivity.class);
+        USR_NAME=usrName;
+        startActivity(trackIntent);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
